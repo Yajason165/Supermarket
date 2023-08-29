@@ -5,14 +5,22 @@ Usage:
 python Supermarket.py [options]
 
 Options:
-	--advance DAYS: Advance program's internal date by a specified number of days.
-	--buy NAME PRICE EXPIRATION_DATE: Record a product purchase with the given name, buy price, and expiration date.
-	--sell NAME SELL_PRICE: Record a product sale with the given name and sell price.
-	--sold DATE: Generate overview of sold and/or expired products until given date.
-	--inventory DATE: Generate inventory overview of given date.
-	--report START_DATE END_DATE: Generate a revenue and profit report for a given date range.
-	--exportfile NAME: Convert csv file to excel file
-	--importfile NAME: Convert excel file to csv file, please specify whether it's a bought or sold file
+
+--advance DAYS: Advance program's internal date by a specified number of days.
+
+--buy NAME PRICE EXPIRATION_DATE: Record a product purchase with the given name, buy price, and expiration date.
+
+--sell NAME SELL_PRICE: Record a product sale with the given name and sell price.
+
+--sold DATE: Generate overview of sold and/or expired products until given date.
+
+--inventory DATE: Generate inventory overview of given date.
+
+--report START_DATE END_DATE: Generate a revenue and profit report for a given date range.
+
+--exportfile NAME: Convert csv file to excel file
+
+--importfile NAME: Convert excel file to csv file, please specify whether it's a bought or sold file
 
 Examples:
 Advancing the date:
